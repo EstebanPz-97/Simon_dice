@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image:url('/assets/img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background-image: radial-gradient(circle, #dad0ed, #b2a0d8, #8871c3, #5b45ae, #1a1a98);
+}
+
+.celeste.light {
+    background-image: radial-gradient(circle, #dad0ed, #cabeec, #b8aceb, #a39beb, #8b8beb);
+}
+
+.violeta {
+    background-image: radial-gradient(circle, #eee5ec, #dfb5d9, #cb85c8, #b353b8, #960eaa);
+}
+
+.violeta.light {
+    background-image: radial-gradient(circle, #eee5ec, #efccea, #edb3ea, #e79aeb, #df81ed);
+}
+
+.naranja {
+    background-image: radial-gradient(circle, #ede2d0, #f2d6aa, #f6ca85, #fabd5f, #fdaf36);
+}
+
+.naranja.light {
+    background-image: radial-gradient(circle, #f9f2e6, #fae8c8, #fbddab, #fcd28e, #fdc671);
+}
+
+.verde {background-image: radial-gradient(circle, #e6f9e7, #bbedbb, #8fe08e, #61d15d, #17c21f);
+  }
+
+.verde.light {
+    background-image: radial-gradient(circle, #ffffff, #dcf9ff, #88fdff, #3efde2, #7ff285);
+  }
+.centro{
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    margin: 113px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(98,87,255,1) 0%, rgba(191,191,255,1) 47%, rgba(255,255,255,1) 100%);
+    font-size: 2.5rem;
+    position: absolute;
+    border-radius: 0px 50% 0px 50%  ;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+  }
+.btn-start .play{
+    padding: 20px;
+    background-image: url('/assets/img/play.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.hide {
+    display: none;
+}
